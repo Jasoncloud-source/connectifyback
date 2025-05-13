@@ -16,10 +16,10 @@ class Community extends Model
         return $this->belongsToMany(User::class);
     }
     
-    public function events()
-    {
-        return $this->hasMany(Event::class);
-    }
+    // public function events()
+    // {
+    //     return $this->hasMany(Event::class);
+    // }
     
     public function messages()
     {
